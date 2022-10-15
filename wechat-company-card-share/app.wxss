@@ -1,0 +1,8 @@
+/**app.wxss**/
+.footer{ 
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+  color: #C6C6C6;
+  padding-top: 30rpx
+  }

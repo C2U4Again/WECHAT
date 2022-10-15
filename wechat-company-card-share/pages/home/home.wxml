@@ -1,0 +1,29 @@
+<!-- .wxml -->
+<view class="IndexHome">
+  <image src="../../image/logo.png" mode="widthFix" class="img"></image>
+</view>
+
+<view class="container">
+  <view class="headBgm"></view>
+  <view class="main">
+    <view class="list" wx:for="{{carList}}" wx:key="index">
+      <image src="../../image/logo.png"></image>
+      <view class="main-content">
+        <view class="c-left">
+          <image src="{{item.img}}"></image>
+        </view>
+        <view class="c-right">
+          <view class="name">姓名：{{item.name}}</view>
+          <view>软件开发咨询顾问</view>
+          <view class="info">
+            <text>微信号：</text>
+            <text class="wxId">{{item.wxid}}</text>
+            <text class="copy" bindtap="copyTBL" data-wxid="{{item.wxid}}">复制微信号</text>
+            <text class="dial" bindtap="calling" data-wxid="{{item.wxid}}">一键拨号</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    
+  </view>
+</view>
