@@ -1,0 +1,18 @@
+/**app.wxss**/
+.personal_info {
+	padding: 20px 0;
+	background-color: #FFF;
+}
+.photo_wrap {
+	text-align: center;
+}
+.photo {
+	width: 90px;
+	height: 90px;
+	border-radius: 90px;
+}
+.nickname {
+	margin-top: 15px;
+	text-align: center;
+	color: #696969;
+}

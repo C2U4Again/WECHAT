@@ -1,0 +1,16 @@
+/* pages/detail/detail4.wxss */
+.item-container{
+  border: 5px solid #ffffff;
+   height: 110rpx;
+   line-height: 110rpx;
+   margin-bottom:4rpx;
+   text-align: center; 
+   background: #f6c8fb;
+   color: #ffffff;
+ }
+ 
+.list-container {
+  
+  border: 2rpx solid black;
+  border-radius: 25rpx;
+ }

@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail1",
+    "pages/detail/detail2",
+    "pages/detail/detail3",
+    "pages/detail/detail4",
+    "pages/detail/detail5"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Template-JSON-API",
+    "navigationBarTextStyle":"black"
+  
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

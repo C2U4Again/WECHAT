@@ -1,0 +1,26 @@
+<!--pages/detail/detail4.wxml-->
+
+
+<view wx:for="{{list}}" wx:key="list">
+      <view class="list-container">
+<view class='item-container'>{{item.login}}</view>
+<view class='item-container'>{{item.id}}</view>
+<view class='item-container'>{{item.node_id}}</view>
+<view class='item-container'>{{item.avatar_url}}</view>
+<view class='item-container'>{{item.gravatar_id}}</view>
+<view class='item-container'>{{item.url}}</view>
+<view class='item-container'>{{item.html_url}}</view>
+ <view class='item-container'>{{item.followers_url}}</view>
+<view class='item-container'>{{item.following_url}}</view>
+<view class='item-container'>{{item.gists_url}}</view>
+<view class='item-container'>{{item.starred_url}}</view>
+<view class='item-container'>{{item.subscriptions_url}}</view>
+<view class='item-container'>{{item.organizations_url}}</view>
+<view class='item-container'>{{item.repos_url}}</view>
+<view class='item-container'>{{item.events_url}}</view>
+<view class='item-container'>{{item.received_events_url}}</view>
+<view class='item-container'>{{item.type}}</view>
+<view class='item-container'>{{item.site_admin}}</view>
+      </view>
+</view>
+

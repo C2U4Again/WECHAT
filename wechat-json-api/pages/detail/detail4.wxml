@@ -1,0 +1,3 @@
+<!--pages/detail/detail4.wxml-->
+
+<view wx:for="{{t}}" wx:key="key">{{item.id}}<text>\r\n</text>{{item.title}}<text>\r\n----------------------------------------------</text></view>

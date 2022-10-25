@@ -1,0 +1,6 @@
+<!--pages/detail/detail3.wxml-->
+<!-- <view wx:for="{{t}}" wx:key="key">{{item.c}}</view>
+<view wx:for="{{t}}" wx:key="key">{{item.c2}}</view> -->
+<view wx:for="{{t}}" wx:key="key">{{item.c3}}</view>
+
+
