@@ -1,0 +1,13 @@
+.list {
+    border: 1px solid red;
+    padding: 10px;
+  }
+  .list scroll-view {
+    height: 350px;
+  }
+   
+  .list .item {
+    padding: 20px 10px;
+    margin: 10px 0px;
+    background: rgb(224, 224, 224);
+  }

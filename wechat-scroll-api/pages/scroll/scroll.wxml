@@ -1,0 +1,23 @@
+<view class='nav' id="tab-con">
+<view class='resume-title'>伟安的简历</view>
+<view bindtap="toblock1" class="{{top<block2_ScrollTop-60?'specify-style':''}}">关于我</view>
+<view bindtap="toblock2" class="{{top>=block2_ScrollTop-60&&top<block3_ScrollTop-60?'specify-style':''}}">工作经验</view>
+<view bindtap="toblock3" class="{{top>=block3_ScrollTop-60?'specify-style':''}}">项目经验</view>
+</view>
+<!-- 中部内容 -->
+<view class="body">
+<scroll-view class="list" scroll-y="true" style="height:{{winHeight}}">
+<view id='block_1'>
+<!-- 第一个板块 -->
+</view>
+<view id='block_2'>
+<!-- 第二个板块 -->
+</view>
+<view id='block_3'>
+<!-- 第三个板块 -->
+</view>
+<view id='block_3'>
+<!-- 嗯，高度不够凑数的 -->
+</view>
+</scroll-view>
+</view>

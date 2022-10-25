@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/scroll/scroll",
+    "pages/scroll/scroll2",
+    "pages/scroll/scroll3",
+    "pages/scroll/scroll4",
+    "pages/scroll/scroll5"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Template-Learn-API",
+    "navigationBarTextStyle":"black"
+  
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

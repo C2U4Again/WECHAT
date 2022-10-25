@@ -1,0 +1,20 @@
+/* pages/scroll/scroll4.wxss */.businessCard-bot{width: 100%; overflow: hidden;position: relative;}
+.businessCard-bot-right{width: 60rpx;background-color: #ffffff;margin-left: 10rpx;position: absolute;right: 0;top: 0;z-index: 99;}
+.businessCard-bot-right>view{line-height: 39rpx;text-align: center;}
+.businessCard-bot-left{width: calc(100% - 70rpx);overflow: auto;}
+.businessCard-bot-left navigator{background-color: #ffffff;margin-bottom: 10rpx;overflow: hidden;padding:20rpx;}
+.businessCard-bot-left navigator:last-child{margin-bottom: 0;}
+.businessCard-bot-left navigator>image{width: 150rpx;height: 150rpx;border-radius: 5rpx;}
+.card-cent>view,.card-bottom>view{float: left;}
+.card-right{width: calc(100% - 150rpx);padding-left: 20rpx;}
+.authentication-left{font-size: 30rpx;font-weight: 500;}
+.authentication-right{color: #999999;}
+.card-cent>view{border: 1px solid orange;color: orange;font-size: 20rpx;padding:  5rpx 10rpx;margin-right: 10rpx;}
+.card-cent{margin: 10rpx 0;}
+.card-bottom>view:first-child{font-size: 30rpx;width: calc(100% - 80rpx);white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.card-bottom>view:last-child{font-size: 20rpx;border: 1px solid #2fb69d;color: #2fb69d;margin-top: 3rpx;}
+.businessCard-top{position: fixed;left: 0;top: 20rpx;z-index: 9;width: 100%;}
+.businessCard-cent{position: fixed;left: 0;top: 100rpx;z-index: 9;}
+.businessCard-bot{position: fixed;left: 0;top: 210rpx;z-index: 9;width: 100%;}
+.businessCard-bot-right{overflow: auto;}
+.scroll-header{line-height: 60rpx;padding-left: 20rpx;}

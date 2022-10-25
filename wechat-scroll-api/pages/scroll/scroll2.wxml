@@ -1,0 +1,5 @@
+<view class="list">
+  <scroll-view scroll-y="true" scroll-top="{{scrollTop}}" scroll-with-animation="false">
+    <view class="item" wx:for="{{list}}">{{item}}</view>
+  </scroll-view>
+</view>

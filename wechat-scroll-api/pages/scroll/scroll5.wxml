@@ -1,0 +1,19 @@
+<view class="cart_item" wx:for="{{cartList}}" wx:key="goods_id">
+    <!-- 这里这里 使用开始 -->
+    <checkbox class="checked" value="cb" checked="{{item.checked}}" bindtap="handleCheckbox" data-id="{{item.id}}" />
+    <!-- 使用结束 -->
+    <view class="img">
+        <image src="{{item.thumb}}" mode="widthFix" />
+    </view>
+    <view class="cart_info">
+        <view class="name">{{item.bookName}}</view>
+        <view class="info_bottom">
+            <view class="price">￥{{item.price}}</view>
+            <view class="num">
+                <view class="button sub">-</view>
+                <view>{{item.NameNo}}</view>
+                <view class="button add">+</view>
+            </view>
+        </view>
+    </view>
+</view>
