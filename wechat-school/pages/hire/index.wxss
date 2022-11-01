@@ -1,0 +1,53 @@
+#api_title {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+view.text3 {
+  width:92%;
+  margin:auto;
+  line-height:50rpx;
+  align-items: center;
+  position: relative;
+  font-size: 30rpx;
+  color: #656565;
+}
+
+view.text4 {
+    width:92%;
+    margin:auto;
+    line-height:50rpx;
+    align-items: center;
+    position: relative;
+    font-size: 30rpx;
+    color: blue;
+    text-decoration-line: underline;
+  }
+.qrcode{width:100%;margin:30rpx auto}
+
+.system_info_body {
+  margin-top: 20rpx;
+}
+.system_info_area {
+  background: #F8F8F8;
+}
+.system_info_single {
+  display: flex;
+  align-items: center;
+  margin-left: 30rpx;
+  border-bottom: 1px solid #eee;
+  height: 88rpx;
+  font-size: 34rpx;
+}
+.system_info_title {
+  width: 180rpx;
+  color: #000;
+}
+.system_info_value {
+  flex-grow: 1
+}
+.system_info_btn {
+  margin-top: 10rpx;
+  padding: 0 20rpx;
+}

@@ -1,0 +1,82 @@
+<view class="main">
+
+<view id="top" class="utitle">
+        <view class="mtitle">学生风采</view>
+        <view class="ztitle">student</view>
+    </view> 
+
+
+<view class="strengtharea">
+<view class="inner">
+
+  <view class="strengthlist">
+<view class="strengthimg"><image src="/image/1.jpg"></image></view>
+<view class="strengthinfo">
+	<view class="ilist">张天<text class="zhicheng">高三二班</text></view>
+	<view class="ilist">简介：保送北大，获得深圳市英语竞赛一等奖</view>
+</view>
+</view>
+
+<view class="strengthlist">
+<view class="strengthimg"><image src="/image/1.jpg"></image></view>
+<view class="strengthinfo">
+	<view class="ilist">张天<text class="zhicheng">高三二班</text></view>
+	<view class="ilist">简介：保送北大，获得深圳市英语竞赛一等奖</view>
+</view>
+</view>
+<view class="strengthlist">
+<view class="strengthimg"><image src="/image/1.jpg"></image></view>
+<view class="strengthinfo">
+	<view class="ilist">张天<text class="zhicheng">高三二班</text></view>
+	<view class="ilist">简介：保送北大，获得深圳市英语竞赛一等奖</view>
+</view>
+</view>
+<view class="strengthlist">
+<view class="strengthimg"><image src="/image/1.jpg"></image></view>
+<view class="strengthinfo">
+	<view class="ilist">张天<text class="zhicheng">高三二班</text></view>
+	<view class="ilist">简介：保送北大，获得深圳市英语竞赛一等奖</view>
+</view>
+</view>
+<view class="strengthlist">
+<view class="strengthimg"><image src="/image/1.jpg"></image></view>
+<view class="strengthinfo">
+	<view class="ilist">张天<text class="zhicheng">高三二班</text></view>
+	<view class="ilist">简介：保送北大，获得深圳市英语竞赛一等奖</view>
+</view>
+</view>
+<view class="strengthlist">
+<view class="strengthimg"><image src="/image/1.jpg"></image></view>
+<view class="strengthinfo">
+	<view class="ilist">张天<text class="zhicheng">高三二班</text></view>
+	<view class="ilist">简介：保送北大，获得深圳市英语竞赛一等奖</view>
+</view>
+</view>
+<view class="strengthlist">
+<view class="strengthimg"><image src="/image/1.jpg"></image></view>
+<view class="strengthinfo">
+	<view class="ilist">张天<text class="zhicheng">高三二班</text></view>
+	<view class="ilist">简介：保送北大，获得深圳市英语竞赛一等奖</view>
+</view>
+</view>
+<view class="strengthlist">
+<view class="strengthimg"><image src="/image/1.jpg"></image></view>
+<view class="strengthinfo">
+	<view class="ilist">张天<text class="zhicheng">高三二班</text></view>
+	<view class="ilist">简介：保送北大，获得深圳市英语竞赛一等奖</view>
+</view>
+</view>
+<view class="strengthlist">
+<view class="strengthimg"><image src="/image/1.jpg"></image></view>
+<view class="strengthinfo">
+	<view class="ilist">张天<text class="zhicheng">高三二班</text></view>
+	<view class="ilist">简介：保送北大，获得深圳市英语竞赛一等奖</view>
+</view>
+</view>
+</view>
+</view>
+
+</view>
+
+<view class="lastpage" bindtap="goTop">返回页首</view>
+	

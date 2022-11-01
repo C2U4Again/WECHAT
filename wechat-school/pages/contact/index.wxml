@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="main">
+    <view class="topthumb">
+        <image src="https://tse2-mm.cn.bing.net/th/id/OIP-C.B1fqDiUyyEPwGl1NjUr1pgAAAA?w=302&h=201&c=7&r=0&o=5&pid=1.7" mode="scaleToFill"></image>
+    </view>
+
+	<view class="utitle">
+        <view class="mtitle">牢记初心，不忘使命</view>
+        <view class="ztitle">薪火相传铭使命，开拓创新铸辉煌</view>
+    </view> 
+    
+
+    <block wx:for="{{goodsList}}" >
+        <view class="good-wrap" >
+        <!-- 左半部分 -->
+        <image class="cover" src="{{item.cover}}" class="img"></image>
+
+        <view class="right">
+            <view>{{item.title}}</view>
+            <view>标语：{{item.content}}</view>
+        </view>
+        </view>
+    </block>
+    
+</view>

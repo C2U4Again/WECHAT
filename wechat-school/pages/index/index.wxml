@@ -1,0 +1,65 @@
+<!--index.wxml-->
+<view class="main">
+<view class="container">
+
+    <view class="section section_gap swiper_box">
+         <swiper class="swiper" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
+                autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" >
+    <block wx:for="{{images}}" wx:key="item.id">
+      <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+    </view>
+	
+    <view class="unav">
+       <block wx:for="{{navs}}" wx:key="item.id">
+    <view id="tapTest" class="navlist" data-hi="{{item.url}}" bindtap="gotopage">
+      <view class="navthumb"><image src="{{item.image}}" mode="scaleToFill"></image></view>
+      <view class="navname">{{item.text}}</view>
+    </view>
+    </block>
+    </view>
+	
+    <view class="ubom"></view>
+	
+	<view class="utitle">
+        <view class="mtitle">第一印象</view>
+        <view class="ztitle">Impression</view>
+    </view> 
+	<view class="introduct">
+	<view class="inner">
+	<navigator class="pleft" url=""><image src="{{images2[0]}}" mode="scaleToFill"></image></navigator>
+	<view class="pright">
+	<navigator class="psmall" url=""><image src="{{images2[1]}}" mode="scaleToFill"></image></navigator>
+	<view class="ubom10rpx"></view>
+	<navigator class="psmall" url=""><image src="{{images2[2]}}" mode="scaleToFill"></image></navigator>
+	</view>
+	
+	</view>
+	</view>
+	<view class="ubom"></view>
+	
+	<view class="utitle">
+        <view class="mtitle">近期活动</view>
+        <view class="ztitle">Activity</view>
+    </view> 
+	<view class="introduct">
+	<view class="inner">
+	
+	<view class="pbig" url=""><image src="/image/14.jpg" mode="scaleToFill"></image></view>
+	<view class="ubom10rpx"></view>
+	<view class="pbig" url=""><image src="/image/7.jpg" mode="scaleToFill"></image></view>
+	<!-- <view class="pright" url=""><image src="/image/15.jpg" mode="scaleToFill"></image></view> -->
+	<view class="ubom10rpx"></view>
+	<view class="pbig" url=""><image src="/image/15.jpg" mode="scaleToFill"></image></view>
+	
+	</view>
+	</view>
+  
+
+</view>
+</view>
+
+<!-- <view class="telicon" bindtap="calling"><image src="/image/tel.png"></image></view> -->

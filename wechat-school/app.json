@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/school/index",
+    "pages/strength/index",
+    "pages/student/index",
+    "pages/life/index",
+
+    "pages/list/index",
+    "pages/course/index",
+
+    "pages/contact/index",
+
+
+    "pages/hire/index",
+
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "深圳中学\nSZZX",
+    "navigationBarTextStyle": "black"
+  },
+  
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#000",
+    "borderStyle": "white",
+    "backgroundColor": "#ddd",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "学校简介"
+      },
+      {
+        "pagePath": "pages/list/index",
+        "iconPath": "image/icon_product.png",
+        "selectedIconPath": "image/icon_product_HL.png",
+        "text": "课程安排"
+      },
+    
+      {
+        "pagePath": "pages/contact/index",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "办学特色"
+      },
+
+      {
+        "pagePath": "pages/hire/index",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "招聘招生"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

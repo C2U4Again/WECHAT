@@ -1,0 +1,18 @@
+/**app.wxss**/
+.l-r {display: flex;}
+.l_auto {flex: 1;}
+.l-c {display: flex;align-items: center;}
+.l-c-c {display: flex;justify-content: center;align-items: center;}
+
+
+.container {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+
+page {
+  background-color: #fbf9fe;
+}

@@ -1,0 +1,46 @@
+<view class="container">
+    <view id="api_title">联系方式</view>
+	
+    <view class="text3">学校地址：广东省深圳市罗湖区人民北路深中街18号</view>
+	<view class="text3">联系电话：0755-29391918</view>
+    <view class="system_info_body">
+        <view class="system_info_area">
+            <view class="system_info_single">
+                <text class="system_info_title">教室家长</text>
+                <input class="system_info_value"  type="text" placeholder="选填" />
+            </view>
+            <view class="system_info_single">
+                <text class="system_info_title">手机号码</text>
+                <input class="system_info_value"  type="text"/>
+            </view>
+            <view class="system_info_single">
+                <text class="system_info_title">微信号码</text>
+                <input class="system_info_value" />
+            </view>
+            <view class="system_info_single">
+                <text class="system_info_title">电子邮箱</text>
+                <input class="system_info_value"/>
+            </view>
+            <view class="system_info_single">
+                <text class="system_info_title">合作内容</text>
+                <input class="system_info_value"/>
+            </view>  
+            <view class="system_info_single">
+                <text class="system_info_title">备注说明</text>
+                <input class="system_info_value"/>
+            </view> 
+            <view class="system_info_single">
+                <text class="system_info_title">预定教室</text>
+                <input class="system_info_value" placeholder="招生办"/>
+            </view>  
+            <view class="system_info_single">
+                <text class="system_info_title">预定时间</text>
+                <input class="system_info_value" placeholder="2022年10月31日"/>
+            </view>  
+        </view>
+        <view class="system_info_btn">
+            <button type="primary" plain bindtap="">加入我们</button>
+        </view>
+    </view>
+
+</view>
