@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container"><view class="btn" bindtap="doubleTap" bindtouchstart="touchStart" bindtouchend="touchEnd">
+  double click</view>
+</view>
+
+

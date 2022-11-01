@@ -1,0 +1,75 @@
+/**app.wxss**/
+.container{
+    background-color: black;
+    display: column;
+
+}
+.imagesize{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .imagesize image{
+    width:200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+    
+  }
+
+  .outter{
+    display : flex;
+    justify-content : space-between;
+    font-size: 32rpx;
+    font-family: "微软雅黑";
+    color:#eeeeee;
+    line-height: 60rpx;
+    padding:16rpx;
+    }
+    .outter .inner{
+    
+    font-size: 32rpx;
+    font-family: "微软雅黑";
+    color:#eeeeee;
+    line-height: 60rpx;
+    
+    }
+
+
+  .info {
+    border: 1px solid #eeeeee;
+    padding: 10px;
+  }
+  .in-title{
+    font-size: 32rpx;
+    font-family: "微软雅黑";
+    color:#eeeeee;
+    line-height: 60rpx;
+    padding-left:20rpx;
+    border-left: 10rpx solid #eeeeee;
+    border-bottom: 1rpx solid #eeeeee;
+    
+  }
+  .in-info{
+    font-size: 32rpx;
+    font-family: "微软雅黑";
+    color:#eeeeee;
+    line-height: 60rpx;
+    padding:16rpx;
+    
+  }
+  .clear{
+    display: flex;
+    flex-direction: column;
+    height:16rpx;
+    background: #eeeeee;
+  }
+
+  
+  
+  .textsize{
+    padding: 0 50rpx;
+    color: #eeeeee;
+  }
+
+ 
