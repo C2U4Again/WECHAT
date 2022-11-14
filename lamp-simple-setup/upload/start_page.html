@@ -1,0 +1,745 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title" content="YOORI - Laravel Vue Multi-Vendor PWA eCommerce Solution">
+<meta name="description" content="YOORI, a complete eCommerce solution! With everything from content management to payment processing, YOORI has you covered! Start your online store now.">
+<meta name="keywords" content="yoori, ecommerce, yoori ecommerce, multivendor ecommerce script, laravel ecommerce, ecommerce script, ecommerce solution, ecommerce platform, ecommerce for online business, ecommerce shopping platform, content management system, ecommerce app, software solution">
+<meta name="author" content="SpaGreen Creative">
+<link rel="shortcut icon" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon.png">
+<link rel="stylesheet" href="https://spagreen.net/yoori-ecommerce-solution/public/site/css/plugins.css">
+<link rel="stylesheet" href="https://spagreen.net/yoori-ecommerce-solution/public/site/css/style.css">
+<link rel="stylesheet" href="https://spagreen.net/yoori-ecommerce-solution/public/site/css/colors/red.css">
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="29ca99c591d86886613ea8c5-|49"></script><link rel="preload" href="https://spagreen.net/yoori-ecommerce-solution/public/site/css/fonts/dm.css" as="style" onload="this.rel='stylesheet'">
+<link rel="stylesheet" href="https://spagreen.net/yoori-ecommerce-solution/public/site/css/custom.css">
+<link rel="apple-touch-icon" sizes="57x57" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://spagreen.net/yoori-ecommerce-solution/public/site/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<style>
+        ul.icon-list.bullet-bg.bullet-soft-primary.mt-7.mb-8.text-start.price.price-show {
+            display: block;
+        }
+        ul.icon-list.bullet-bg.bullet-soft-primary.mt-7.mb-8.text-start.price.price-hide {
+            display: none;
+        }
+    </style>
+<title>    YOORI - Laravel Vue Multi-Vendor PWA eCommerce CMS
+</title>
+ 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-24XHHD4VJY" type="29ca99c591d86886613ea8c5-text/javascript"></script>
+<script type="29ca99c591d86886613ea8c5-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-24XHHD4VJY');
+</script>
+
+<script type="29ca99c591d86886613ea8c5-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PDZ2GZF');</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-792731108" type="29ca99c591d86886613ea8c5-text/javascript"></script>
+<script type="29ca99c591d86886613ea8c5-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-792731108');
+</script>
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDZ2GZF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="content-wrapper">
+<header class="wrapper bg-soft-primary">
+<div class="alert bg-primary text-white fade show rounded-0 mb-0 text-center" role="alert">
+<div class="container">
+<div class="alert-inner p-0">
+<span class="badge badge-lg bg-white text-primary text-uppercase rounded me-2">Update 1.5</span>
+New demos are added!
+</div>
+</div>
+</div>
+<nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
+<div class="container flex-lg-row flex-nowrap align-items-center">
+<div class="navbar-brand w-100">
+<a href="https://spagreen.net/yoori-ecommerce-solution">
+<img src="https://spagreen.net/yoori-ecommerce-solution/public/site/img/logo.svg" srcset="https://spagreen.net/yoori-ecommerce-solution/public/site/img/logo.svg 2x" alt="" />
+</a>
+</div>
+<div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+<div class="offcanvas-header d-lg-none">
+<h3 class="text-white fs-30 mb-0">OVOO</h3>
+<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link" href="https://spagreen.net/yoori-ecommerce-solution">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="docs">Documentation</a></li>
+<li class="nav-item"><a class="nav-link" target="_blank" href="https://desk.spagreen.net/">Support</a></li>
+</ul>
+<div class="offcanvas-footer d-lg-none">
+<div>
+<a href="/cdn-cgi/l/email-protection#76101f040502581a17050236131b171f1a5815191b" class="link-inverse"><span class="__cf_email__" data-cfemail="5c2f3d30392f1c2f2c3d3b2e39393272323928">[email&#160;protected]</span></a>
+<br /> +880 1400 62 00 55 <br />
+<nav class="nav social social-white mt-4">
+<a href="https://www.twitter.com/spagreenbd"><i class="uil uil-twitter"></i></a>
+<a href="https://www.facebook.com/spagreenbd"><i class="uil uil-facebook-f"></i></a>
+<a href="https://www.youtube.com/channel/UCFtA9cz7E07uZABijYTCOTQ"><i class="uil uil-youtube"></i></a>
+</nav>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="navbar-other w-100 d-flex ms-auto">
+<ul class="navbar-nav flex-row align-items-center ms-auto">
+<li class="nav-item d-none d-md-block">
+<a href="https://codecanyon.net/collections/11091436-yoori-ecommerce-solution/" class="btn btn-primary rounded-pill" target="_blank">Buy Now</a>
+</li>
+<li class="nav-item d-lg-none">
+<button class="hamburger offcanvas-nav-btn"><span></span></button>
+</li>
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+</header>
+<section class="wrapper bg-soft-primary">
+<div class="container pt-10 pb-12 pt-md-14 pb-md-17">
+<div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+<div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 mt-lg-n2 text-center text-lg-start order-2 order-lg-0" data-cues="slideInDown" data-group="page-title" data-delay="600">
+<h1 class="display-1 mb-5 mx-md-10 mx-lg-0">Effortless complete marketplace eCommerce script, built for <br />
+<span class="typer text-primary text-nowrap" data-delay="100" data-words="web application,android app,ios app, delivery app,fast transactions,secure payments"></span>
+<span class="cursor text-primary" data-owner="typer"></span>
+</h1>
+<p class="lead fs-lg mb-7">Powerful multi-vendor all in all eCommerce platform to make you a successful entrepreneur.</p>
+<div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+<span>
+<a href="#mobile-app" class="btn btn-purple rounded me-2">Mobile App Demo</a>
+</span>
+<span>
+<a href="#web-app" class="btn btn-primary rounded me-2">Web Demo</a>
+</span>
+<span>
+<a href="#delivery-app" class="btn btn-green rounded me-2">Delivery App Demo</a>
+</span>
+</div>
+<div class="pt-10 d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+<span>
+<a href="https://codecanyon.net/item/yoori-flutter-multivendor-ecommerce-full-app-with-admin-panel/38944711" class="btn btn-sm btn-soft-purple rounded me-2" target="_blank">Purchase Mobile App | $49</a>
+</span>
+<span>
+<a href="https://codecanyon.net/item/yoori-laravel-vue-multivendor-pwa-ecommerce-cms-php-script/37142846" class="btn btn-sm btn-soft-red rounded me-2" target="_blank">Purchase Web | $34</a>
+</span>
+<span>
+<a href="https://codecanyon.net/user/spagreen/portfolio" class="btn btn-sm btn-soft-green rounded" target="_blank">Delivery App | $24</a>
+</span>
+</div>
+</div>
+
+<div class="col-lg-5 offset-lg-1 mb-n18" data-cues="slideInDown">
+<div class="position-relative">
+<a href="./assets/media/movie.mp4" class="btn btn-circle btn-primary btn-play ripple mx-auto mb-6 position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox><i class="icn-caret-right"></i></a>
+<figure class="rounded shadow-lg"><img src="public/images/yoori-ecommerce-all-device-mockup.png" srcset="public/images/yoori-ecommerce-all-device-mockup@2x.png 2x" alt=""></figure>
+</div>
+
+</div>
+</div>
+
+</div>
+
+</section>
+<section class="wrapper bg-light">
+<div class="container py-14 py-md-16">
+<div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-18 align-items-center" id="web-app">
+<div class="col-lg-6 position-relative">
+<div class="shape bg-line leaf rounded-circle rellax w-17 h-17" data-rellax-speed="1" style="top: -2rem; right: -0.6rem;"></div>
+<div class="shape bg-pale-violet rounded-circle rellax w-17 h-17" data-rellax-speed="1" style="bottom: -2rem; left: -0.4rem;"></div>
+<figure class="rounded mb-0"><img src="public/images/yoori-ecommerce-cms-all-device-mockup.png" srcset="public/images/yoori-ecommerce-cms-all-device-mockup@2x.png 2x" alt=""></figure>
+</div>
+
+<div class="col-lg-6">
+<h3 class="display-4 mb-4">YOORI Web Application</h3>
+<p class="mb-5">Yoori is highly responsive and best ecommerce solution available. Probably the fastest ecommerce site browsing and product purchase experience.</p><p>Yoori include features like customizable home page builder, best payment gateways, full admin control panel, full content management system, multiple seller management, and order tracking.</p>
+<p>You will also have the opportunity to rearrange and redesign your homepage with a variety of content. This gives you a detailed and easy-to-understand admin panel for maintaining your online products.</p>
+<div class="row gy-3">
+<div class="col-xl-6">
+<ul class="icon-list bullet-bg bullet-soft-leaf mb-0">
+<li><span><i class="uil uil-check"></i></span><span>Multiple language supported store with active RTL.</span></li>
+<li class="mt-3"><span><i class="uil uil-check"></i></span><span>Laravel VueJS Framework used to ensure maximum performance.</span></li>
+</ul>
+</div>
+
+<div class="col-xl-6">
+<ul class="icon-list bullet-bg bullet-soft-leaf mb-0">
+<li><span><i class="uil uil-check"></i></span><span>Multi-vendor addon included with 8+ payment gateway supported.</span></li>
+<li class="mt-3"><span><i class="uil uil-check"></i></span><span>Fully SEO optimized and Google schema ready.</span></li>
+</ul>
+</div>
+
+</div>
+
+<a href="https://yoori.spagreen.net/" class="btn btn-soft-leaf rounded-pill mt-6 mb-0" target="_blank">Store Front Demo</a>
+<a href="https://yoori.spagreen.net/admin" class="btn btn-soft-green rounded-pill mt-6 mb-0" target="_blank">Admin Panel Demo</a>
+<a href="https://yoori.spagreen.net/seller" class="btn btn-soft-red rounded-pill mt-6 mb-0" target="_blank">Seller Panel Demo</a>
+<a href="https://codecanyon.net/item/yoori-laravel-vue-multivendor-pwa-ecommerce-cms-php-script/37142846" class="btn btn-soft-primary rounded-pill mt-6 mb-0" target="_blank">Learn More/Buy Now</a>
+</div>
+
+</div>
+
+<div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-18 align-items-center" id="mobile-app">
+<div class="col-lg-6 order-lg-2 position-relative">
+<div class="shape bg-line aqua rounded-circle rellax w-17 h-17" data-rellax-speed="1" style="top: -2rem; left: -0.6rem;"></div>
+<div class="shape bg-pale-red rounded-circle rellax w-17 h-17" data-rellax-speed="1" style="bottom: -2rem; right: -0.4rem;"></div>
+<figure class="rounded mb-0"><img src="public/images/se3@2x.jpg" srcset="public/images/se3@2x.jpg 2x" alt=""></figure>
+</div>
+
+<div class="col-lg-6">
+<h3 class="display-4 mb-4">YOORI eCommerce Mobile App</h3>
+<p class="mb-5">Yoori is highly responsive and the fastest ecommerce solution for your business. Through Yoori you can give your clients the fastest ecommerce site browsing and product purchase experience.</p><p>Other exclusive features include Wholesale, Commission and Subscription based product selling, Real Time Order tracking, Dynamic coupon, Product stock and Invoice management, and so on. </p>
+<div class="row gy-3">
+<div class="col-xl-6">
+<ul class="icon-list bullet-bg bullet-soft-aqua mb-0">
+<li><span><i class="uil uil-check"></i></span><span>Multiple currency and language supported.</span></li>
+<li class="mt-3"><span><i class="uil uil-check"></i></span><span>Seperate user and admin panel.</span></li>
+</ul>
+</div>
+
+<div class="col-xl-6">
+<ul class="icon-list bullet-bg bullet-soft-aqua mb-0">
+<li><span><i class="uil uil-check"></i></span><span>Easy checkout and secured payment processing.</span></li>
+<li class="mt-3"><span><i class="uil uil-check"></i></span><span>Lifetime free update.</span></li>
+</ul>
+</div>
+
+</div>
+
+<div class="d-flex justify-content-between justify-content-lg-start pt-10" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+<span><a href="https://drive.google.com/file/d/15NKghkq_zOdSBTcqXdcYa1VMabnf-CXB/view?usp=sharing" class="btn btn-green btn-icon btn-icon-start rounded me-2" target="_blank"><i class="uil uil-google-play"></i> Android APK</a></span>
+<span><a href="#" class="btn btn-primary btn-icon btn-icon-start rounded me-2"><i class="uil uil-apple"></i> iOS Upcoming</a></span>
+<span><a href="https://codecanyon.net/item/yoori-flutter-multivendor-ecommerce-full-app-with-admin-panel/38944711" class="btn btn-red btn-icon btn-icon-start rounded" target="_blank"><i class="uil uil-bag-alt"></i> Buy Now / Learn More</a></span>
+</div>
+</div>
+
+</div>
+<div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center" id="delivery-app">
+<div class="col-lg-6 position-relative">
+<div class="shape bg-line leaf rounded-circle rellax w-17 h-17" data-rellax-speed="1" style="top: -2rem; right: -0.6rem;"></div>
+<div class="shape bg-pale-violet rounded-circle rellax w-17 h-17" data-rellax-speed="1" style="bottom: -2rem; left: -0.4rem;"></div>
+<figure class="rounded mb-0"><img src="public/images/yoori-delivery-app-mockup.png" srcset="public/images/yoori-delivery-app-mockup@2x.png 2x" alt=""></figure>
+</div>
+
+<div class="col-lg-6">
+<h3 class="display-4 mb-4">YOORI Delivery Boy App</h3>
+<p class="mb-5">To run an ecommerce business, the delivery system should be smooth. Yoori Delivery Man App meets all the requirements you need for a top notch delivery and customer satisfaction.</p><p>Delivery person can get delivery instructions through this app. The delivery person can view total earnings and deliver history as well. The app provides different panel for admin and delivery person.</p>
+<p>One thing to be noted that, the Yoori Delivery Man App is not an independent system. The delivery app is only available for Yoori Web Application and Yoori eCommerce Mobile App.</p>
+<div class="row gy-3">
+<div class="col-xl-6">
+<ul class="icon-list bullet-bg bullet-soft-leaf mb-0">
+<li><span><i class="uil uil-check"></i></span><span>Flutter is used to ensure the best and solid performance.</span></li>
+<li class="mt-3"><span><i class="uil uil-check"></i></span><span>Delivery and earning history available.</span></li>
+</ul>
+</div>
+
+<div class="col-xl-6">
+<ul class="icon-list bullet-bg bullet-soft-leaf mb-0">
+<li><span><i class="uil uil-check"></i></span><span>User friendly seperate interface for admin and delivery person.</span></li>
+<li class="mt-3"><span><i class="uil uil-check"></i></span><span>Real Time status update.</span></li>
+</ul>
+</div>
+
+</div>
+
+<div class="d-flex justify-content-between justify-content-lg-start pt-10" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+<span><a target="_blank" href="https://drive.google.com/file/d/1db61Aik9tPTrDI3xQUin_p7vhksLktLs/view?usp=sharing" class="btn btn-green btn-icon btn-icon-start rounded me-2"><i class="uil uil-google-play"></i> APK Demo</a></span>
+<span><a href="#" class="btn btn-primary btn-icon btn-icon-start rounded me-2"><i class="uil uil-apple"></i>iOS Upcoming</a></span>
+<span><a href="https://codecanyon.net/user/spagreen/portfolio" target="_blank" class="btn btn-red btn-icon btn-icon-start rounded"><i class="uil uil-bag-alt"></i> Buy Now / Learn More</a></span>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="wrapper bg-light">
+<div class="container py-14 py-md-16">
+<div class="row text-center">
+<div class="col-xl-10 mx-auto">
+<h2 class="fs-15 text-uppercase text-primary mb-3">Key Features</h2>
+<h3 class="display-4 mb-10 px-xxl-15">Yoori is not just an ecommerce, but a complete multi-vendor ecommerce solution that has extended support available for any device.</h3>
+</div>
+
+</div>
+
+<div class="row gy-6">
+<div class="col-md-6 col-lg-4">
+<a href="#" class="card shadow-lg lift h-100">
+<div class="card-body p-5 d-flex flex-row">
+<div>
+<span class="avatar bg-red text-white w-11 h-11 fs-20 me-4">TC</span>
+</div>
+<div>
+<span class="badge bg-pale-blue text-blue rounded py-1 mb-2">Theme Options</span>
+<h4 class="mb-1">Theme Customization</h4>
+<p class="mb-0 text-body">Customize your store without any single line of code</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-md-6 col-lg-4">
+<a href="#" class="card shadow-lg lift h-100">
+<div class="card-body p-5 d-flex flex-row">
+<div>
+<span class="avatar bg-green text-white w-11 h-11 fs-20 me-4">FL</span>
+</div>
+<div>
+<span class="badge bg-pale-aqua text-aqua rounded py-1 mb-2">Speed</span>
+<h4 class="mb-1">Faster Loading</h4>
+<p class="mb-0 text-body">You will experience about 3x faster loading speed.</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-md-6 col-lg-4">
+<a href="#" class="card shadow-lg lift h-100">
+<div class="card-body p-5 d-flex flex-row">
+<div>
+<span class="avatar bg-yellow text-white w-11 h-11 fs-20 me-4">ML</span>
+</div>
+<div>
+<span class="badge bg-pale-blue text-blue rounded py-1 mb-2">Language</span>
+<h4 class="mb-1">Multiple Language &amp; RTL</h4>
+<p class="mb-0 text-body">Active RTL. You can easily change your preferred language</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-md-6 col-lg-4">
+<a href="#" class="card shadow-lg lift h-100">
+<div class="card-body p-5 d-flex flex-row">
+<div>
+<span class="avatar bg-purple text-white w-11 h-11 fs-20 me-4">PI</span>
+</div>
+<div>
+<span class="badge bg-pale-violet text-violet rounded py-1 mb-2">Platform Independent</span>
+<h4 class="mb-1">Multi-vendor Support</h4>
+<p class="mb-0 text-body">You can choose between single and multi vendor.</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-md-6 col-lg-4">
+<a href="#" class="card shadow-lg lift h-100">
+<div class="card-body p-5 d-flex flex-row">
+<div>
+<span class="avatar bg-orange text-white w-11 h-11 fs-20 me-4">PS</span>
+</div>
+<div>
+<span class="badge bg-pale-blue text-blue rounded py-1 mb-2">Payment System</span>
+<h4 class="mb-1">Secured Payment Procedure</h4>
+<p class="mb-0 text-body">We ensure maximum security with best payment procedures.</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-md-6 col-lg-4">
+<a href="#" class="card shadow-lg lift h-100">
+<div class="card-body p-5 d-flex flex-row">
+<div>
+<span class="avatar bg-pink text-white w-11 h-11 fs-20 me-4">LU</span>
+</div>
+<div>
+<span class="badge bg-pale-blue text-blue rounded py-1 mb-2">Updates</span>
+<h4 class="mb-1">Lifetime Update</h4>
+<p class="mb-0 text-body">We consistently update new features and improvements</p>
+</div>
+</div>
+</a>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="wrapper bg-light wrapper-border">
+<div class="container py-14 py-md-16">
+<div class="row gy-10 gy-sm-13 gx-lg-3 align-items-center">
+<div class="col-md-8 col-lg-6 position-relative">
+<div class="shape bg-dot primary rellax w-17 h-21" data-rellax-speed="1" style="top: -2rem; left: -1.9rem;"></div>
+<div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%; "></div>
+<figure class="rounded"><img src="public/images/yoori-how-it-work.jpg" srcset="public/images/yoori-how-it-work@2x.jpg 2x" alt="" /></figure>
+</div>
+
+<div class="col-lg-5 col-xl-4 offset-lg-1">
+<h2 class="h1 mb-3">How It Works?</h2>
+<p class="lead fs-lg mb-6">So here are three working steps why our valued customers choose us.</p>
+<div class="d-flex flex-row mb-6">
+<div>
+<span class="icon btn btn-circle btn-primary disabled me-5"><span class="number fs-18">1</span></span>
+</div>
+<div>
+<h4 class="mb-1">Download and Install</h4>
+<p class="mb-0">Download and install Yoori eCommerce solution.</p>
+</div>
+</div>
+<div class="d-flex flex-row mb-6">
+<div>
+<span class="icon btn btn-circle btn-primary disabled me-5"><span class="number fs-18">2</span></span>
+</div>
+<div>
+<h4 class="mb-1">Platform Setup</h4>
+<p class="mb-0">Setup your business with Yoori eCommerce options.</p>
+</div>
+</div>
+<div class="d-flex flex-row">
+<div>
+<span class="icon btn btn-circle btn-primary disabled me-5"><span class="number fs-18">3</span></span>
+</div>
+<div>
+<h4 class="mb-1">Finalize Product</h4>
+<p class="mb-0">Let the sellers know that you have the fastest platform and ask them to join.</p>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="wrapper bg-light">
+<div class="container py-14 py-md-16">
+<div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0">
+<div class="col-lg-4 mt-lg-2">
+<h2 class="fs-15 text-uppercase text-muted mb-3">Payment</h2>
+<h3 class="display-4 mb-3 pe-xxl-5">World Most Popular 7+ Payment Gateway Ready</h3>
+<p class="lead fs-lg mb-0 pe-xxl-5">Including PayPay & Stripe, We have integrated 7+ payment gateway to make esier payment.</p>
+</div>
+
+<div class="col-lg-8">
+<div class="row row-cols-2 row-cols-md-4 gx-0 gx-md-8 gx-xl-12 gy-12">
+<div class="col">
+<figure class="px-3 px-md-0 px-xxl-2"><img src="public/images/paypal.svg" alt="" /></figure>
+</div>
+
+<div class="col">
+<figure class="px-3 px-md-0 px-xxl-2"><img src="public/images/stripe.svg" alt="" /></figure>
+</div>
+
+<div class="col">
+<figure class="px-3 px-md-0 px-xxl-2"><img src="public/images/sslcommerze.svg" alt="" /></figure>
+</div>
+
+<div class="col">
+<figure class="px-3 px-md-0 px-xxl-2"><img src="public/images/paytm.svg" alt="" /></figure>
+</div>
+
+<div class="col">
+<figure class="px-3 px-md-0 px-xxl-2"><img src="public/images/paystack.svg" alt="" /></figure>
+</div>
+
+<div class="col">
+<figure class="px-3 px-md-0 px-xxl-2"><img src="public/images/mollie.svg" alt="" /></figure>
+</div>
+
+<div class="col">
+<figure class="px-3 px-md-0 px-xxl-2"><img src="public/images/JazzCash.svg" alt="" /></figure>
+</div>
+
+<div class="col">
+<figure class="px-3 px-md-0 px-xxl-2"><img src="public/images/fw.svg" alt="" /></figure>
+</div>
+<div class="col">
+<figure class="px-3 px-md-0 px-xxl-2"><img src="public/images/razorpay.svg" alt="" /></figure>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="wrapper bg-light">
+<div class="container py-14 py-md-16">
+<div class="row gx-lg-8 gx-xl-12 gy-6 align-items-center">
+<div class="col-lg-7 position-relative">
+<div class="shape bg-dot primary rellax w-18 h-18" data-rellax-speed="1" style="top: 0; left: -1.4rem; z-index: 0;"></div>
+<div class="row gx-md-5 gy-5">
+<div class="col-md-6">
+<figure class="rounded mt-md-10 position-relative"><img src="public/images/g5@2x.jpg" srcset="public/images/g5@2x.jpg 2x" alt=""></figure>
+</div>
+
+<div class="col-md-6">
+<div class="row gx-md-5 gy-5">
+<div class="col-md-12 order-md-2">
+<figure class="rounded"><img src="public/images/g6@2x.jpg" srcset="public/images/g6@2x.jpg 2x" alt=""></figure>
+</div>
+
+<div class="col-md-10">
+<div class="card bg-pale-primary text-center">
+<div class="card-body py-11 counter-wrapper">
+<h3 class="counter text-nowrap">4200+</h3>
+<p class="mb-0">Customers Love Our Work</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-5 mt-5">
+<div class="swiper-container dots-closer mb-6" data-margin="30" data-dots="true">
+<div class="swiper">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<blockquote class="icon icon-top fs-lg text-center">
+<p>I have brought two of their scripts before problem-free. I look forward to using this multivendor vue PWA. I know they provide support, unlike other developers who sell a support-less script.</p>
+<div class="blockquote-details justify-content-center text-center">
+<div class="info ps-0">
+<a href="https://codecanyon.net/ratings/3386115"><h5 class="mb-1">petercastleuk</h5></a>
+<p class="mb-0">UK(United Kingdom)</p>
+<span class="ratings five fs-20 mb-3"></span>
+</div>
+</div>
+</blockquote>
+</div>
+<div class="swiper-slide">
+<blockquote class="icon icon-top fs-lg text-center">
+<p>Very Good Script,I Will Suggest Any User Planning to Buy a Multi Vendor E-Commerce Script Can Go for it.I Personally Like the Support System too.</p>
+<div class="blockquote-details justify-content-center text-center">
+<div class="info ps-0">
+<a href="https://codecanyon.net/ratings/3398061"><h5 class="mb-1">Zahir4U</h5></a>
+<p class="mb-0">India</p>
+<span class="ratings five fs-20 mb-3"></span>
+</div>
+</div>
+</blockquote>
+</div>
+<div class="swiper-slide">
+<blockquote class="icon icon-top fs-lg text-center">
+<p>The script is Awesome, The Support IS VERY AWESOME you really deserve the 10 Star.<br>I buy a lot of script at Codecanyon this is the first we have a very good support and very fast support.<br>Very recommended Keep up The Good Work</p>
+<div class="blockquote-details justify-content-center text-center">
+<div class="info ps-0">
+<a href="https://codecanyon.net/ratings/3387170"><h5 class="mb-1">kalamnet</h5></a>
+<p class="mb-0">Bangladesh</p>
+<span class="ratings five fs-20 mb-3"></span>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="wrapper bg-light">
+<div class="container py-14 py-md-16">
+<div class="row">
+<div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto text-center">
+<h2 class="fs-15 text-uppercase text-muted mb-3">Our Pricing</h2>
+<h3 class="display-4 mb-15 mb-md-6 px-lg-10">We offer great prices, premium products and quality service for your business.</h3>
+</div>
+
+</div>
+
+<div class="pricing-wrapper position-relative">
+<div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1" style="top: 2rem; right: -2.4rem;"></div>
+<div class="shape rounded-circle bg-line red rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1" style="bottom: 0.5rem; left: -2.5rem;"></div>
+<div class="pricing-switcher-wrapper switcher">
+<p class="mb-0 pe-3">Regular License</p>
+<div class="pricing-switchers">
+<div class="pricing-switcher pricing-switcher-active"></div>
+<div class="pricing-switcher"></div>
+<div class="switcher-button bg-primary"></div>
+</div>
+<p class="mb-0 ps-3">Extended</p>
+</div>
+<div class="row gy-6 mt-3 mt-md-5">
+<div class="col-md-6 col-lg-4">
+<div class="pricing card text-center">
+<div class="card-body">
+<img src="public/images/cart-svgrepo-com.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+<h4 class="card-title">Mobile App(User)</h4>
+<div class="prices text-dark">
+<div class="price price-show"><span class="price-currency">$</span><span class="price-value">49</span> <span class="price-duration">onetime</span></div>
+<div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">490</span> <span class="price-duration">onetime</span></div>
+</div>
+
+<ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start price price-show">
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>Lifetime</strong> Update</span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>Desk Support</strong> (1 Business Day) </span></li>
+<li><i class="uil uil-times bullet-soft-red"></i><span><strong>1 Hour</strong> Live Support(Anydesk)</span></li>
+<li><i class="uil uil-times bullet-soft-red"></i><span> Commercial <strong>Project</strong> </span></li>
+<li><i class="uil uil-times bullet-soft-red"></i><span> Free <strong>Installation(cPanel)</strong></span></li>
+</ul>
+<ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start price price-hide price-hidden">
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>Lifetime</strong> Update</span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>Desk Support</strong> (1 Business Day) </span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>1 Hour</strong> Live Support(Anydesk) </span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span> Commercial <strong>Project</strong> </span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span> Free <strong>Installation(cPanel)</strong></span></li>
+</ul>
+<a href="https://codecanyon.net/checkout/from_item/38944711?license=regular" class="btn btn-primary rounded-pill purchase-btn">Buy Now</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-6 col-lg-4 popular">
+<div class="pricing card text-center">
+<div class="card-body">
+<img src="public/images/web-ui-svgrepo-com.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+<h4 class="card-title">Web Application</h4>
+<div class="prices text-dark">
+<div class="price price-show"><span class="price-currency">$</span><span class="price-value">34</span> <span class="price-duration">onetime</span></div>
+<div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">490</span> <span class="price-duration">onetime</span></div>
+</div>
+
+<ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start price price-show">
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>Lifetime</strong> Update</span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>Desk Support</strong> (1 Business Day) </span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>6 Month</strong> Technical Support</span></li>
+<li><i class="uil uil-times bullet-soft-red"></i><span><strong>1 Hour</strong> Live Support(Anydesk) </span></li>
+<li><i class="uil uil-times bullet-soft-red"></i><span> Commercial <strong>Project</strong> </span></li>
+<li><i class="uil uil-times bullet-soft-red"></i><span> Free <strong>Installation(cPanel)</strong></span></li>
+</ul>
+<ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start price price-hide price-hidden">
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>Lifetime</strong> Update</span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>Desk Support</strong> (1 Business Day) </span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>6 Month</strong> Technical Support</span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>1 Hour</strong> Live Support(Anydesk) </span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span> Commercial <strong>Project</strong> </span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span> Free <strong>Installation(cPanel)</strong></span></li>
+</ul>
+<a href="https://codecanyon.net/checkout/from_item/37142846?license=regular" class="btn btn-primary rounded-pill purchase-btn">Buy Now</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0">
+<div class="pricing card text-center">
+<div class="card-body">
+<img src="public/images/delivery-svgrepo-com.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+<h4 class="card-title">Delivery Boy App</h4>
+<div class="prices text-dark">
+<div class="price price-show"><span class="price-currency">$</span><span class="price-value">22</span> <span class="price-duration">onetime</span></div>
+<div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">290</span> <span class="price-duration">onetime</span></div>
+</div>
+
+<ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start price price-show">
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>Lifetime</strong> Update</span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>Desk Support</strong> (1 Business Day) </span></li>
+<li><i class="uil uil-times bullet-soft-red"></i><span><strong>1 Hour</strong> Live Support(Anydesk) </span></li>
+<li><i class="uil uil-times bullet-soft-red"></i><span> Commercial <strong>Project</strong> </span></li>
+<li><i class="uil uil-times bullet-soft-red"></i><span> Free <strong>Installation(cPanel)</strong></span></li>
+</ul>
+<ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start price price-hide price-hidden">
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>Lifetime</strong> Update</span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>Desk Support</strong> (1 Business Day) </span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span><strong>1 Hour</strong> Live Support(Anydesk) </span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span> Commercial <strong>Project</strong> </span></li>
+<li><i class="uil uil-check bullet-soft-green"></i><span> Free <strong>Installation(cPanel)</strong></span></li>
+</ul>
+<a href="#" class="btn btn-primary rounded-pill purchase-btn">Buy Now</a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="wrapper bg-dark text-white">
+<div class="container pt-14 pt-md-16 text-center">
+<div class="row">
+<div class="col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+<h2 class="display-3 text-white mt-3 mb-3 px-lg-8">Manage simply, Grow faster. Bring your business online with Yoori.</h2>
+<p class="lead fs-lg mb-6">The fastest platform with all the ecommerce features you need to start, run, and grow your dream business.</p>
+<a href="https://1.envato.market/yooricollection" target="_blank" class="btn btn-lg btn-white rounded-pill mb-10">Buy Yoori Now</a>
+</div>
+
+</div>
+
+<img class="img-fluid" src="public/images/yoori-website-showcase-mockup.png" srcset="public/images/yoori-website-showcase-mockup@2x.png 2x" alt="">
+</div>
+
+</section>
+</div>
+<div class="progress-wrap">
+<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+</svg>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://spagreen.net/yoori-ecommerce-solution/public/site/js/plugins.js" type="29ca99c591d86886613ea8c5-text/javascript"></script>
+<script src="https://spagreen.net/yoori-ecommerce-solution/public/site/js/theme.js" type="29ca99c591d86886613ea8c5-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="29ca99c591d86886613ea8c5-|49" defer=""></script></body>
+</html>
