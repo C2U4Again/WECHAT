@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "bookName": "常委",
+    "NameNo": "",
+    "thumb": "https://gimg3.baidu.com/rel/src=https%3A%2F%2Fgips1.baidu.com%2Fit%2Fu%3D1999159844%2C2691662867%26fm%3D3028%26app%3D3028%26f%3DJPEG%26fmt%3Dauto%26q%3D99%26size%3Df1140_640&refer=http%3A%2F%2Fwww.baidu.com&app=2010&size=w560&n=0&g=0n&q=100&fmt=auto?sec=1667149200&t=272dbaa49173d70b0430aa46b3b6bc3b",
+    "dataurl": "http://120.78.78.211:8083/json/people/cw.json",
+    "total": "7",
+    "lastread": "1"
+  },
+  {
+    "id": 2,
+    "bookName": "省委",
+    "NameNo": "",
+    "thumb": "https://gimg3.baidu.com/rel/src=https%3A%2F%2Fgips1.baidu.com%2Fit%2Fu%3D1999159844%2C2691662867%26fm%3D3028%26app%3D3028%26f%3DJPEG%26fmt%3Dauto%26q%3D99%26size%3Df1140_640&refer=http%3A%2F%2Fwww.baidu.com&app=2010&size=w560&n=0&g=0n&q=100&fmt=auto?sec=1667149200&t=272dbaa49173d70b0430aa46b3b6bc3b",
+    "dataurl": "http://120.78.78.211:8083/json/people/sw.json",
+    "total": "12",
+    "lastread": "1"
+  }
+]
