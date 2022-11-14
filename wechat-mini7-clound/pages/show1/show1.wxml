@@ -1,0 +1,60 @@
+
+
+<!-- 搜索框 -->
+
+<view class="top"  style="--color--:{{bg}};">
+<view class="search-form">
+    <input placeholder="search the book"  bindinput="search" />
+    <icon type="search" size="20"  catchtap="fetchBookData" />
+    <!-- <view class="sum">{{sum}}条</view> -->
+  </view>
+
+  <view class="title">
+    <text id="tit"  bindtap="qingxianyuedu">请先阅读</text>
+  </view>
+</view>
+
+
+
+<view class="middle"  style="--color1--:{{bg1}};">
+  <!--热门系列-->
+
+  <view class="man_type"   wx:if="{{goodsList.length>0}}">
+    
+
+    <!--字母A开头-->
+    <view class="type_style">
+      <text class="type_name">合作内容</text>
+    </view>
+    <block>
+      <view class="icons_title"  wx:for="{{goodsList}}" wx:key="{{item.id}}" data-current="{{item.id}}" data-durl="{{item.dataurl}}" data-total="{{item.total}}" bindtap="aodi_click">
+        <view class="icons">
+          <image src="{{item.cover}}" style="width: 100%; height: 100%;"></image>
+        </view>
+        <view class="type_title">
+          《{{item.title}}》-{{item.price}}
+        
+        <text type="primary" bindtap="addOrder" data-index="{{index}}" class="btn2">购买</text>
+      </view>
+      </view>
+    </block>
+  
+
+  </view>
+
+  <view wx:else>
+  <view class="null">{{load}}</view>
+</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/show/show",
+        "pages/show0/show0",
+        "pages/book0/book0",
+        "pages/show1/show1",
+        "pages/detail/detail",
+        "pages/show2/show2",
+        "pages/lead2/lead2"
+        
+        
+       
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "MYan",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}
