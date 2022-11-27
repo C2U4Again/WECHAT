@@ -1,0 +1,53 @@
+
+
+<!-- 搜索框 -->
+
+<view class="top"  style="--color--:{{bg}};">
+<view class="search-form">
+    <input placeholder="search the book"  bindinput="search" />
+    <icon type="search" size="20"  catchtap="fetchBookData" />
+    <!-- <view class="sum">{{sum}}条</view> -->
+  </view>
+
+  <view class="title">
+    <text id="tit">文章欣赏</text>
+  </view>
+</view>
+<view>{{text}}</view>
+
+<!--
+<view class="middle"  style="--color1--:{{bg1}};">
+  热门系列
+
+  <view class="man_type"   wx:if="{{goodsList.length>0}}">
+    
+
+    
+    <view class="type_style">
+      <text class="type_name">{{goodsList[0]['title']}}共需{{goodsList.length}}步</text>
+    </view>
+
+    <block>
+      <view class="middle"  style="--color1--:{{bg1}};">
+    <view class="herowork">
+    <view class="hero-work" wx:for="{{goodsList}}" wx:for-item="item" >
+      <text>需要人民币{{item.price}}元\n</text>
+      
+      <text>需要时间{{item.time}}分钟\n</text>
+      <text class="work-text1">{{item.content}}\n</text>
+      <text>\n\n\n\n</text></view>
+      </view> 
+    </view>
+       </block>
+
+    
+
+  </view>
+
+</view>
+  <view wx:else>
+  <view class="null">{{load}}</view>
+</view>
+
+
+</view>-->

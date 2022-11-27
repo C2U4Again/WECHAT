@@ -1,0 +1,34 @@
+<view class="top"  style="--color--:{{bg}};">
+
+<text></text>
+<!-- <view class="sum">{{sum}}条</view> -->
+
+
+
+
+
+
+
+
+<view class="title">
+<text id="tit">用户识别</text>
+</view>
+</view>
+
+
+
+<view class="main"  style="--color1--:{{bg1}};">
+<!--热门系列-->
+
+<view class="man_type">
+<!-- 识别组件 -->
+<view  bindtap="getOpenId" wx:if="{{!haveGetOpenId}}">
+<ocr-navigator>
+<button>点击获取</button>
+</ocr-navigator>
+</view>
+<!-- 识别出来的内容 -->
+<view class="work-text1" selectable='true'>{{ openId }}</view>
+
+</view>
+</view>

@@ -1,0 +1,62 @@
+<!--pages/show5/show5.wxml-->
+<text>pages/show5/show5.wxml</text>
+
+
+<!-- 搜索框 -->
+
+<view class="top"  style="--color--:{{bg}};">
+<view class="search-form">
+    <input placeholder="search the tool"  bindinput="search" />
+    <icon type="search" size="20"  catchtap="fetchBookData" />
+    <!-- <view class="sum">{{sum}}条</view> -->
+  </view>
+
+  <view class="title">
+    <text id="tit">工具使用</text>
+  </view>
+</view>
+
+
+
+<view class="middle"  style="--color1--:{{bg1}};">
+  <!--热门系列-->
+
+  <view class="man_type"   wx:if="{{goodsList.length>0}}">
+    
+
+    <!--字母A开头-->
+    <view class="type_style">
+      <text class="type_name">快速上手</text>
+    </view>
+    <block>
+      <view class="icons_title"  wx:for="{{goodsList}}" wx:key="{{item.id}}" data-current="{{item.id}}" data-durl="{{item.dataurl}}" data-total="{{item.total}}">
+        <view class="icons">
+          <image src="{{item.cover}}" style="width: 100%; height: 100%;"></image>
+        </view>
+        <view class="type_title">
+          《{{item.title}}》-{{item.price}}
+        
+        <text type="primary" bindtap="goDetail" data-index="{{index}}" class="btn2">尝试</text>
+      </view>
+      </view>
+    </block>
+  
+
+  </view>
+
+  <view wx:else>
+  <view class="null">{{load}}</view>
+</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+

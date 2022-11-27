@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="page">
+<navigator url="/pages/show/show" open-type="reLaunch">
+  <view class="loading">
+    <text>enter</text>
+  </view>
+</navigator>
+</view>

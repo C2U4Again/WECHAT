@@ -1,0 +1,55 @@
+
+<!--pages/book0/book0.wxml-->
+<view class="top"   style="--color--:{{bg}};">
+<view class="search-form">
+    <input placeholder="search the paragraph"  bindinput="search" />
+    <icon type="search" size="20"  catchtap="fetchBookData" />
+    <!-- <view class="sum">{{sum}}条</view> -->
+  </view>
+
+  <view class="second">
+  <view class="title">
+    <text id="tit">书本阅读</text>
+  </view>
+</view>
+</view>
+<!--logs.wxml-->
+
+
+
+
+
+    
+<!-- 第四部分目录 -滚动目录显示隐藏-->
+<view class="catalog-btn" >
+    <view class="{{showView?'hide':'show'}} btn" bindtap="change">{{showView?'目录':'隐藏'}}</view>
+    <view class="{{showView?'show':'hide'}} btn" bindtap="change">{{showView?'目录':'隐藏'}}</view>
+  </view>
+  <!-- 目录内容 -->
+  <view class="{{showView?'hide':'show'}}">
+
+<scroll-view  scroll-y="true" >
+
+<view class="set-content"  >
+
+<view wx:for="{{abc}}" wx:key="index" wx:if="{{item>0}}">
+       <view  data-letter="{{item}}" bindtap="ni">p{{item}}</view>
+</view>
+</view>
+
+</scroll-view>
+</view>
+
+
+<!-- book内容循环 -->
+<view class="middle"  style="--color1--:{{bg1}};">
+    <view class="herowork">
+    <view wx:for="{{infoList}}"  wx:key="{{item.c}}" wx:if="{{item.c>0}}" class="hero-work">
+            <!-- book章节数 -->
+      <text class="work-text1">{{item.c}}-{{item.c2}}\n</text>
+             <!-- 段落内容 -->
+      <text>{{item.c3}}\n</text>
+      <text>\n\n\n\n</text>
+    </view>
+    </view>
+</view>

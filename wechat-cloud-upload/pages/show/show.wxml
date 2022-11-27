@@ -1,0 +1,47 @@
+<!--pages/show/show.wxml-->
+<!-- 
+use slider to change bg color
+and remember to put a on-off button for bg music
+
+-->
+
+<!-- <image class="bg" src=""></image> -->
+<view hidden="{{clockShow}}">
+
+<view class="top"  style="--color--:{{bg}};">
+    <view class="slider">
+      <slider min="1" max="99" show-value activeColor="#E7624F"
+      backgroundColor="#666666" value="60" bindchange="slideChange"></slider>
+      </view>
+      <view class="task_text">
+        <view class="task_title">{{swv}}</view>
+        <view class="task_desc">Below are some tools we tried to build till now</view>
+      </view>
+
+    </view>
+
+    <view class="middle" style="--color1--:{{bg1}};">
+      <view class="task_cate">
+        <view wx:for="{{cateArr}}" class="cate_item" wx:key="cate" bindtap="clickCate"
+        data-index="{{index}}">
+          <view class="cate_icon"> <image src="{{item.icon}}"></image> </view>
+          <view class='cate_text {{index == cateActive ? "cate_text_active" : ""}}' >{{item.text}}</view>
+        </view>
+       
+  </view>
+
+    </view>
+
+    <view class="buttom"  style="--color2--:{{bg2}};">
+
+<view class="btn1">
+  <view class="start" bindtap="start" style="font-size:{{ fs }}rpx;">
+        Go
+        </view>
+       
+</view>
+
+<!-- <view bindtap="isPlay" class="btn2">{{isPlayText}}</view> -->
+
+      </view>
+</view>

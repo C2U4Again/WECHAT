@@ -1,0 +1,54 @@
+
+
+<!-- 搜索框 -->
+
+<view class="top"  style="--color--:{{bg}};">
+<view class="search-form">
+    <input placeholder="search the book"  bindinput="search" />
+    <icon type="search" size="20"  catchtap="fetchBookData" />
+    <!-- <view class="sum">{{sum}}条</view> -->
+  </view>
+
+  <view class="title">
+    <text id="tit">书本阅读</text>
+  </view>
+</view>
+<!--logs.wxml-->
+
+
+
+ 
+
+
+<view class="middle"  style="--color1--:{{bg1}};">
+  <!--热门系列-->
+
+  <view class="man_type"   wx:if="{{infoList.length>0}}">
+    
+
+    <!--字母A开头-->
+    <view class="type_style">
+      <text class="type_name">小说</text>
+    </view>
+    <block>
+      <view class="icons_title"  wx:for="{{infoList}}" wx:key="{{item.id}}" data-current="{{item.id}}" data-durl="{{item.dataurl}}" data-total="{{item.total}}" bindtap="aodi_click">
+        <view class="icons">
+          <image src="{{item.thumb}}" style="width: 100%; height: 100%;"></image>
+        </view>
+        <view class="type_title">
+          《{{item.bookName}}》-{{item.NameNo}}
+        </view>
+      </view>
+    </block>
+  
+
+  </view>
+
+  <view wx:else>
+  <view class="null">{{load}}</view>
+</view>
+</view>
+
+
+ 
+

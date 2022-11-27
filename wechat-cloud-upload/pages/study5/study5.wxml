@@ -1,0 +1,36 @@
+<view class="top"  style="--color--:{{bg}};">
+
+
+    <text>\n</text>
+<view class="search-form">
+  
+  </view>
+
+
+
+
+
+
+
+<view class="title">
+<text id="tit">图像识别</text>
+</view>
+</view>
+
+
+
+<view class="main"  style="--color1--:{{bg1}};">
+<!--热门系列-->
+
+<view class="man_type">
+<!-- 识别组件 -->
+<view>
+<ocr-navigator bind:onSuccess="platenumSuccess" certificateType="platenum">
+<button>文字转换</button>
+</ocr-navigator>
+</view>
+<!-- 识别出来的内容 -->
+<view class="work-text1" selectable='true'>{{ text }}</view>
+
+</view>
+</view>
