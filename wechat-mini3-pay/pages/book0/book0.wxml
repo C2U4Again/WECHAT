@@ -1,0 +1,52 @@
+
+
+<!-- 搜索框 -->
+<view  hidden='{{!scrollTop}}' bindtap="goTop">
+ 
+                <image class='goTop' src="/pages/images/icon_gotop.png"></image>
+           
+            </view>
+<view class="top"  style="--color--:{{bg}};">
+<view class="search-form">
+    <input placeholder="search the book"  bindinput="search" />
+    <icon type="search" size="20"  catchtap="fetchBookData" />
+    <!-- <view class="sum">{{sum}}条</view> -->
+  </view>
+
+  <view class="title">
+    <text id="tit">文章欣赏</text>
+</view>
+
+
+
+<view class="middle"  style="--color1--:{{bg1}};">
+  <!--热门系列-->
+
+  <view class="man_type"   wx:if="{{goodsList.length>0}}">
+   
+    <view class="type_style">
+      <text class="type_name">{{text}}</text>
+    </view>
+<view class="label-list">
+<view wx:for="{{goodsList.length}}" wx:for-index="idx">
+<text space="ensp" bindtap="clickMe" data-nid="{{'d'+idx}}"> 第{{idx+1}}回</text>
+</view>
+</view>
+    <block>
+      <view class="middle"  style="--color1--:{{bg1}};">
+    <view class="herowork">
+    <view class="hero-work" wx:for="{{goodsList}}" wx:for-item="item" wx:for-index="idx">
+      <view  id="d{{idx}}"><text class="work-text1">{{item.title}}\n\n{{item.text1}}\n\n</text></view>
+      
+    </view></view>
+    
+      
+    </view>
+       </block>
+
+  </view>
+
+  <view wx:else>
+  <view class="null">{{load}}</view>
+</view>
+</view></view>

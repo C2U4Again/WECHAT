@@ -1,0 +1,468 @@
+/**app.wxss**/
+
+  page { 
+    --main-bg-color: brown;
+  }
+ 
+
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position:fixed; 
+    background-size:100% 100%;
+    z-index: -1;
+    filter: blur(10rpx);
+}
+
+/* pages/show3/show3.wxss */
+/* 搜索框 */
+
+.goTop{
+  height: 80rpx;
+  width: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 200rpx;
+  background: rgba(0,0,0,.3);
+  right: 80rpx; 
+  border-radius: 50%;
+  z-index: 9;
+  }
+
+  .label-list {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .second .title{
+
+    height: 120rpx;
+    line-height: 120rpx;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  
+  #tit {
+	letter-spacing: 10px;
+	color: black;
+	font-weight: bold;
+  }
+  
+  .man_type {
+
+	width: 100%;
+	height: auto;
+  }
+  
+  .type_style {
+	background-color: #E7E7E7;
+  }
+  
+  .type_name {
+	margin-left: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #707070;
+  }
+  
+  .content_img {
+	width: 60px;
+	height: 60px;
+	display: inline-table;
+	margin-left: 10px;
+	margin-right: 10px;
+  }
+  
+  .icons_title {
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #C8C8C8;
+	display: flex;
+  }
+  .icons {
+	width: 60px;
+	height: 50px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10rpx;
+  }
+  
+  .type_title {
+	font-size: 12px;
+	font-weight: bold;
+	margin: auto 20px; 
+  }
+  
+  .null{
+  
+	margin-top: 100rpx;
+	
+  }
+
+/* pages/book0/book0.wxss */
+/* 搜索框 */
+.search-form{
+  padding:0 10px;
+  position:fixed;
+  top: 0rpx;
+  left:0;
+  width: 100%;
+  box-sizing:border-box;
+  z-index: 999;
+  background-color: white;
+}
+.search-form input{
+  border:1px solid #dedede;
+  height:32px;
+  padding: 0 5px;
+  background: #fff;
+  /* margin-bottom: 10px; */
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  border-radius: 3px;
+}
+.search-form icon{
+  display: inline-block;
+  border:none;
+  background:none;
+  position:absolute;
+  right:20px;
+  top:10px;
+}
+
+
+.title{
+  text-align: center;
+  margin-top: 30px;
+  height: 120rpx;
+  line-height: 120rpx;
+}
+
+#tit {
+  letter-spacing: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.hide,.hide1{
+  display: none;
+
+}
+.show,.show1{
+  display: block;
+}
+
+
+/* 目录内容 */
+.set-content{
+
+  width: 150rpx;
+  height: 287rpx;
+  text-align: center;
+  margin-top: 270rpx;
+  margin-left: 540rpx;
+  position: fixed;
+  z-index: 999;
+  /* background-color: #949292; */
+  color: white;
+  overflow: auto;
+  background-color:white;
+}
+.set-content view{
+  
+  width: 90rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  margin-bottom: 15rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: #E7E7E7;
+  margin-top: 5rpx;
+
+}
+
+/* 人物内容 */
+
+.hero-list{
+ 
+  width: 83%;
+  margin: 0 auto;
+ 
+}
+
+.hero-list1{
+   
+   /* background-color: palevioletred; */
+   margin: 0 auto;
+   text-align:justify;
+   margin-top: 50rpx
+}
+
+.hero-work,.herowork1{
+  text-align:justify;
+  padding-top: 60px;/* 60px是导航栏高度 */  
+   margin-top: -60px; 
+ 
+}
+
+.herowork{
+  margin: 0 auto;
+   margin-top: 120rpx;
+   width: 82%;
+
+  
+}
+
+
+.herowork1{
+  margin: 0 auto;
+   margin-top: 0rpx;
+   width: 82%;
+  
+}
+
+.work-text1{
+
+  background-color: white;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* 全局修改css */
+
+.top{
+
+  background-color: var(--color--);
+
+}
+
+
+.middle{
+
+  background-color: var(--color1--);
+  height: 100%;
+}
+
+.buttom{
+  background-color: var(--color2--);
+}
+
+
+
+/* 书本目录的显示隐藏 */
+
+
+.catalog-btn{
+
+  position: fixed;
+  top: 520rpx;
+  right: 0;
+  
+}
+
+.catalog-btn .btn{
+
+  width: 60rpx;
+  height: 100rpx;
+  background-color: #E7E7E7;
+
+ color:rgb(59, 59, 59);
+ font-weight: 600;
+ text-align: center;
+
+}
+
+.ny{
+
+  z-index: 999;
+ 
+}
+
+.goodlist{
+
+   
+  margin-top: -50rpx;
+ }
+ .good-wrap {
+   margin: 20rpx 20rpx 0 20rpx;
+   border: 1rpx rgb(209, 204, 204) solid ;
+   border-radius: 13rpx;
+   display: flex;
+   flex-direction: row;
+   
+ 
+ }
+ 
+
+ .img {
+   width: 260rpx;
+   height: 260rpx;
+   border: 1rpx rgb(209, 204, 204) solid ;
+   /* background: no-repeat center;
+   background-size: cover; */
+   /* object-fit: cover; */
+   margin-right: 20rpx;
+ }
+ 
+ .right {
+   display: flex;
+   flex-direction: column;
+   margin-left:16rpx;
+   height: 250rpx;
+   justify-content: space-between;
+ }
+
+ .btn2{
+
+  display: inline-block;
+  width: 100rpx;
+  height: 50rpx;
+  margin-left: 20rpx;
+  background-color:#E7E7E7;
+  text-align: center;
+  line-height: 50rpx;
+ 
+
+ }
+
+ /* lead2 */
+ 
+ .hidden{
+
+  display: none;
+}
+ 
+.inputView{
+  background-color: white;
+  line-height: 45px;
+}
+.imgLo{
+  margin-left: 22px;
+  width: 20px;
+  height: 20px;
+}
+.labelLo{
+  margin: 15px 15px 15px 10px;
+  color: gray;
+  font-size: 15px;
+}
+.inputText{
+  float: right;
+  text-align: right;
+  margin-right: 22px;
+  margin-top: 11px;
+  font-size: 15px;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: gainsboro;
+  margin-top: 1px;
+}
+.loginBtn {
+  width: 80%;
+  margin-top: 35px;
+  background-color: #000;
+  color: white;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.goToRegist{
+  width: 80%;
+  margin-top: 15px;
+  color: #000;
+  border-radius: 98rpx;
+}
+
+.imagesize{
+    
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.imagesize image{
+  width:200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  
+}
+
+.outter{
+  display : flex;
+  justify-content : space-between;
+  font-size: 32rpx;
+  font-family: "微软雅黑";
+  color:#000;
+  line-height: 60rpx;
+  padding:16rpx;
+  }
+
+.outter .inner{
+  
+  font-size: 32rpx;
+  font-family: "微软雅黑";
+  color:#000;
+  line-height: 60rpx;
+  
+  }
+
+
+.info {
+  border: 1px solid #000;
+  padding: 10px;
+}
+.in-title{
+  font-size: 32rpx;
+  font-family: "微软雅黑";
+  color:#000;
+  line-height: 60rpx;
+  padding-left:20rpx;
+  border-left: 10rpx solid #000;
+  border-bottom: 1rpx solid #000;
+  
+}
+.in-info{
+  font-size: 32rpx;
+  font-family: "微软雅黑";
+  color:#000;
+  line-height: 60rpx;
+  padding:16rpx;
+  
+}
+.clear{
+  display: flex;
+  flex-direction: column;
+  height:16rpx;
+  background: #000;
+}
+
+
+
+.textsize{
+  padding: 0 50rpx;
+  color: #eeeeee;
+}
+
+
+
+

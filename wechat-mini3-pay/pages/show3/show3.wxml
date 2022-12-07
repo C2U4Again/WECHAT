@@ -1,0 +1,33 @@
+
+<view class="out_wrap">
+
+
+  <view class="title">
+    <text id="tit">{{ontop}}</text>
+  </view>
+
+
+  
+<view class="fist_result">
+<image src="{{img[index].index}}"></image>
+</view>
+<view class="fist_result">
+<image src="{{img[index1].index}}"></image>
+
+</view>
+<text>\n</text>
+
+<view class="button_wrap">
+
+<button bindtap="btnYao">随机</button>
+</view><view class="button_wrap">
+<view class="work-text1">{{title}}</view>
+
+<button bindtap="btnJie">应变</button>
+<view class="work-text1">{{title2}}</view>
+
+
+</view>
+
+</view>
+

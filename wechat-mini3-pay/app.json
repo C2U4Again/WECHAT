@@ -1,0 +1,36 @@
+{
+    "plugins": {
+        "ocr-plugin": {
+          "version": "3.1.2",
+          "provider": "wx4418e3e031e551be"
+        }
+    },
+    "pages": [
+        "pages/index/index",
+        "pages/show/show",
+        "pages/res/res",
+        "pages/resume/resume",
+        "pages/show0/show0",
+        "pages/book0/book0",
+        "pages/show1/show1",
+        "pages/detail/detail",
+        "pages/dingdan/dingdan",
+        "pages/show2/show2",
+        "pages/lead2/lead2",
+        "pages/show3/show3",
+        
+        "pages/show4/show4",
+        "pages/order4/order4"
+
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "MYan",
+        "navigationBarTextStyle": "black"
+        
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}

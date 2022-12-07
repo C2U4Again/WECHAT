@@ -1,0 +1,89 @@
+
+<!--pages/book0/book0.wxml-->
+<view class="top" style="--color--:{{bg}};">
+<view class="search-form">
+    <input placeholder="search the leader"  bindinput="search" />
+    <icon type="search" size="20"  catchtap="fetchBookData" />
+    <!-- <view class="sum">{{sum}}条</view> -->
+  </view>
+
+  <view class="second">
+  <view class="title">
+    <text id="tit">党史学习</text>
+  </view>
+</view>
+</view>
+<!--logs.wxml-->
+
+
+
+
+
+<!-- 第四部分目录 -->
+
+
+<!-- 滚动目录显示隐藏-->
+<view class="catalog-btn" >
+    <view class="{{showView?'hide':'show'}} btn" bindtap="change">{{showView?'目录':'隐藏'}}</view>
+    <view class="{{showView?'show':'hide'}} btn" bindtap="change">{{showView?'目录':'隐藏'}}</view>
+  </view>
+  <!-- 目录内容 -->
+  <view class="{{showView?'hide':'show'}} ny ">
+
+<scroll-view  scroll-y="true" class="set-content">
+
+<view>
+
+<view wx:for="{{abc}}" wx:key="index" wx:if="{{item>0}}">
+       <view  data-letter="s{{index}}" bindtap="ni">p{{item}}</view>
+</view>
+</view>
+
+</scroll-view>
+</view>
+
+<!-- 中部 -->
+<view class="middle" id="middle"  style="--color1--:{{bg1}};">
+<!-- book内容循环 -->
+
+    <view class="herowork1">
+      <scroll-view   style="height:100%;"  scroll-with-animation="true" class="bbb">
+    <view  wx:for="{{infoList}}"  wx:key="index" wx:for-item="city" class="hero-work" id="s{{index}}">
+             <!-- 所有内容 -->
+       
+             <!-- 工作经历内容 -->
+            <text class="work-text1">{{city.c}}-{{city.c2}}\n{{city.name}}，{{city.gender}}，{{city.tribe}}，{{city.birth}}，{{city.origin}}，{{city.join}}，{{city.school}}</text>
+            
+   <!-- 更多显示隐藏-->
+
+    <text class="btn2" bindtap="toggleBtn" data-did="{{city.c2}}">更多</text>
+   
+
+           
+           <!-- 更多内容 -->
+
+           <view class='{{uhide==city.c2?" ":"hidden"}}'>
+
+            <view wx:for="{{city.c3}}" wx:key="index" class="hero-work">
+            <!-- 工作经历时间 -->
+             <text class="work-text1">{{item.t1}}-{{item.t2}}\n</text>
+             <!-- 工作经历内容 -->
+      <text>{{item.t3}}\n</text>
+      <text>\n\n\n\n</text>
+    </view>
+           </view>
+
+
+
+
+
+    </view>
+
+
+
+
+
+      </scroll-view>
+    </view>
+
+</view>

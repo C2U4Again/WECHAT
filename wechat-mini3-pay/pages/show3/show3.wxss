@@ -1,0 +1,41 @@
+image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .out_wrap {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20rpx;
+    background: #fff;
+    /* background: rgba(3, 29, 11, 0.6); */
+  }
+  
+  
+  .out_wrap text{
+  color: #000;
+  
+  }
+  .fist_result {
+    background: #fff;
+    /* background: rgb(18, 150, 219, 0.1); */
+    position: relative;
+    
+  }
+  .fist_result image {
+    /* 外边距 */
+    margin: 0 76rpx;
+  }
+  .button_wrap button {
+    /* 行内块 */
+    display: inline-block;
+    /* 权重  优先级*/
+    width: 36vw !important;
+    margin: 0 30rpx !important;
+    background: #E7E7E7;
+  }
+
+
+
+  

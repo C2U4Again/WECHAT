@@ -1,0 +1,17 @@
+<view class='container'>
+
+    <view class="imagesize">
+  <image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fbpic.51yuansu.com%2Fpic2%2Fcover%2F00%2F47%2F94%2F5815d2249268b_610.jpg&refer=http%3A%2F%2Fbpic.51yuansu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1669703063&t=7080614cd8c70e429b59380f7fcf8c7c" class='in-image' bindtap="bindViewTap"></image>
+  <view >
+    <text class='in-info'>姓名：{{resu1.name}}\n</text>
+    
+    <text class='in-info'>电话：{{resu1.tel}}\n</text>
+    <text class='in-info'>邮箱：{{resu1.email}}</text>
+  </view>
+</view>
+
+
+
+
+
+</view>

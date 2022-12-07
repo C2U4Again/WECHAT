@@ -1,0 +1,119 @@
+
+
+<!-- 搜索框 -->
+
+<view class="top"  style="--color--:{{bg}};">
+<view class="search-form">
+    <input placeholder="search the book"  bindinput="search" />
+    <icon type="search" size="20"  catchtap="fetchBookData" />
+    <!-- <view class="sum">{{sum}}条</view> -->
+  </view>
+
+  <view class="title">
+    <text id="tit"  bindtap="qingxianyuedu">合作协议</text>
+  </view>
+</view>
+
+
+
+<view class="middle"  style="--color1--:{{bg1}};">
+  <!--热门系列-->
+
+  <view class="man_type"   wx:if="{{goodsList.length>0}}">
+    
+
+    <!--字母A开头-->
+    <view class="type_style">
+      <text class="type_name" bindtap="dingdanchaxun">内容</text>
+    </view>
+    <block>
+      <view class="icons_title"  wx:for="{{goodsList}}" wx:key="{{item.id}}" data-current="{{item.id}}" data-durl="{{item.dataurl}}" data-total="{{item.total}}" bindtap="aodi_click">
+        <view class="icons">
+          <image src="{{item.cover}}" style="width: 100%; height: 100%;"></image>
+        </view>
+        <view class="type_title">
+          《{{item.title}}》-{{item.price}}
+          <text>\n\n</text>
+        <text type="primary" bindtap="modalinput" data-index="{{index}}" class="btn2">购买</text>
+        <text type="primary" open-type="contact" class="btn2">客服</text>
+        
+        <view wx:if="{{completed}}">
+          <view class='toast-box'>
+      <view class='toastbg'></view>
+      <view class='showToast'>
+        <view class='toast-title'>
+          <text>请您确认联系方式</text>
+        </view>
+        <view class='toast-main'>
+          <view class='toast-input'>
+            <input type='text' placeholder='请输入您的手机号码' focus="true" bindinput='getUserPhone'></input>
+          </view>
+          <view class='toast-input'>
+            <input type='text' placeholder='请输入您的联系名字' focus="true" bindinput='getUserName'></input>
+          </view>
+        </view>
+        <view class='toast-button'>
+          <view class='cancel'>
+            <button bindtap="cancelSelected">取消</button>
+          </view>
+          <view class='success'>
+            <button bindtap="successSelected">确定</button>
+          </view>
+        </view>
+      </view>
+    </view>
+        </view>
+
+    <text type="primary" bindtap="huifanginput" data-index="{{index}}" class="btn2">回访</text>
+    <view wx:if="{{completed}}">
+          <view class='toast-box'>
+      <view class='toastbg'></view>
+      <view class='showToast'>
+        <view class='toast-title'>
+          <text>请您确认联系方式</text>
+        </view>
+        <view class='toast-main'>
+          <view class='toast-input'>
+            <input type='text' placeholder='请输入您的手机号码' focus="true" bindinput='gethuifangPhone'></input>
+          </view>
+          <view class='toast-input'>
+            <input type='text' placeholder='请输入您的联系名字' focus="true" bindinput='gethuifangName'></input>
+          </view>
+        </view>
+        <view class='toast-button'>
+          <view class='cancel'>
+            <button bindtap="cancelhuifang">取消</button>
+          </view>
+          <view class='success'>
+            <button bindtap="successhuifang">确定</button>
+          </view>
+        </view>
+      </view>
+    </view>
+        </view>
+
+  </view>
+
+
+
+    </view>
+    </block>
+  </view>
+
+  
+  <view wx:else>
+  <view class="null">{{load}}</view>
+  </view>
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
