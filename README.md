@@ -1,9 +1,6 @@
 # template
 This folder is for quick set-up various project.
 
-# author
-clear@clear.com
-
 # license 
 The MIT License (MIT)
 Copyright © 2021 <myan.ltd>
@@ -38,4 +35,6 @@ ClientAliveCountMax 10800
 ```
 5. RPC 35 error
 
+# contact
+fanqiang320@gmail.com
 
